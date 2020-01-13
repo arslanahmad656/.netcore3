@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "OdeToFoodCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OdeToFoodCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFoodCore.dll": {}
+        }
+      },
+      "OdeToFoodData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OdeToFoodCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OdeToFoodData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OdeToFoodData.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OdeToFoodCore/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFoodCore/OdeToFoodCore.csproj",
+      "msbuildProject": "../OdeToFoodCore/OdeToFoodCore.csproj"
+    },
+    "OdeToFoodData/1.0.0": {
+      "type": "project",
+      "path": "../OdeToFoodData/OdeToFoodData.csproj",
+      "msbuildProject": "../OdeToFoodData/OdeToFoodData.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "OdeToFoodData >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Administrator.ZEUS\\.nuget\\packages\\": {},
@@ -36,7 +73,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {
+              "projectPath": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
