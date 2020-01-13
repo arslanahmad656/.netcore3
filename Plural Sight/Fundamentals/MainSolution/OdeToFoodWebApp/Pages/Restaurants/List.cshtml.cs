@@ -17,15 +17,18 @@ namespace OdeToFoodWebApp.Pages.Restaurants
 
         public List<Restaurant> Restaurants { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string Term { get; set; }
+
         public ListModel(IConfiguration config, IRestaurantData restaurantData)
         {
             this.config = config;
             this.restaurantData = restaurantData;
         }
 
-        public void OnGet(string term)
+        public void OnGet()
         {
-            Restaurants = restaurantData.GetByName(term);
+            Restaurants = restaurantData.GetByName(Term);
         }
     }
 }
