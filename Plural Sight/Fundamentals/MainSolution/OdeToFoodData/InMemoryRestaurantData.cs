@@ -1,5 +1,7 @@
 ﻿using OdeToFoodCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace OdeToFoodData
 {
@@ -17,6 +19,10 @@ namespace OdeToFoodData
             };
 
         }
+
         public List<Restaurant> GetAll() => restaurants;
+
+        public List<Restaurant> GetByName(string name) 
+            => string.IsNullOrWhiteSpace(name) ? restaurants : restaurants.Where(r => r.Name.StartsWith(name, StringComparison.InvariantCultureIgnoreCase)).ToList();
     }
 }

@@ -23,9 +23,9 @@ namespace OdeToFoodWebApp.Pages.Restaurants
             this.restaurantData = restaurantData;
         }
 
-        public void OnGet()
+        public void OnGet(string term)
         {
-            Restaurants = restaurantData.GetAll();
+            Restaurants = restaurantData.GetByName(term);
         }
     }
 }

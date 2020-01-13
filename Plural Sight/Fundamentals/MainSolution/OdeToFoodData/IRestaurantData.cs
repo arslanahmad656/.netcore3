@@ -8,5 +8,7 @@ namespace OdeToFoodData
     public interface IRestaurantData
     {
         List<Restaurant> GetAll();
+
+        List<Restaurant> GetByName(string name) => throw new NotImplementedException();
     }
 }
