@@ -10,5 +10,7 @@ namespace OdeToFoodData
         List<Restaurant> GetAll();
 
         List<Restaurant> GetByName(string name) => throw new NotImplementedException();
+
+        Restaurant GetById(int id);
     }
 }

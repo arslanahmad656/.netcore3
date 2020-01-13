@@ -5,22 +5,24 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using OdeToFoodCore;
+using OdeToFoodData;
 
 namespace OdeToFoodWebApp.Pages.Restaurants
 {
     public class DetailsModel : PageModel
     {
+        private readonly IRestaurantData restaurantData;
+
         public Restaurant Restaurant { get; set; }
+
+        public DetailsModel(IRestaurantData restaurantData)
+        {
+            this.restaurantData = restaurantData;
+        }
         
         public void OnGet(int restaurantId)
         {
-            Restaurant = new Restaurant
-            {
-                Cuisine = CuisineType.None,
-                Id = restaurantId,
-                Location = "Somewhere",
-                Name = "My Restaurant"
-            };
+            Restaurant = restaurantData.GetById(restaurantId);
         }
     }
 }
