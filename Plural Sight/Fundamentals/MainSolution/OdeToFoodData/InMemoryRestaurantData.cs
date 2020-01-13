@@ -17,6 +17,6 @@ namespace OdeToFoodData
             };
 
         }
-        public List<Restaurant> GetAll() => restaurants
+        public List<Restaurant> GetAll() => restaurants;
     }
 }

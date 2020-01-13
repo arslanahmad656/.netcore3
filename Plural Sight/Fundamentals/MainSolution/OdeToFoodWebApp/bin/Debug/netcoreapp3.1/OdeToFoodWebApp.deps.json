@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "OdeToFoodWebApp/1.0.0": {
         "dependencies": {
+          "OdeToFoodData": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,6 +313,25 @@
         },
         "compile": {
           "OdeToFoodWebApp.dll": {}
+        }
+      },
+      "OdeToFoodCore/1.0.0": {
+        "runtime": {
+          "OdeToFoodCore.dll": {}
+        },
+        "compile": {
+          "OdeToFoodCore.dll": {}
+        }
+      },
+      "OdeToFoodData/1.0.0": {
+        "dependencies": {
+          "OdeToFoodCore": "1.0.0"
+        },
+        "runtime": {
+          "OdeToFoodData.dll": {}
+        },
+        "compile": {
+          "OdeToFoodData.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2010,6 +2030,16 @@
   },
   "libraries": {
     "OdeToFoodWebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OdeToFoodCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OdeToFoodData/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
