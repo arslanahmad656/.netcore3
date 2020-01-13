@@ -1,0 +1,13 @@
+﻿@page
+@model OdeToFoodWebApp.Pages.Restaurants.DetailsModel
+
+    <h1>@Model.Restaurant.Name</h1>
+
+    <div>
+        <p>ID: @Model.Restaurant.Id</p>
+        <p>Name: @Model.Restaurant.Name</p>
+        <p>Location: @Model.Restaurant.Location</p>
+        <p>Cuisine: @Model.Restaurant.Cuisine</p>
+    </div>
+
+    <p><a asp-page="./List" class="btn btn-link">All Restaurants</a></p>
