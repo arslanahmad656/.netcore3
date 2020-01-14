@@ -25,19 +25,12 @@
     </form>
 
     <div>
-        <table class="table">
-            @foreach (var item in Model.Restaurants)
-            {
-            <tr>
-                <td>@item.Name</td>
-                <td>@item.Location</td>
-                <td>@item.Cuisine</td>
-                <td><a asp-page="./Details" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Details</a></td>
-                <td><a asp-page="./Edit" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Edit</a></td>
-                <td><a asp-page="Delete" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Delete</a></td>
-            </tr>
-            }
-        </table>
+        @foreach (var item in Model.Restaurants)
+        {
+            <partial name="_Summary" model="item" />
+        }
 
+        <br />
+        <br />
         <a asp-page="./Edit" class="btn btn-primary">Create</a>
     </div>
