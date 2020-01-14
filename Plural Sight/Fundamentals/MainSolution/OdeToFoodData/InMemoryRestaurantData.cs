@@ -20,11 +20,26 @@ namespace OdeToFoodData
 
         }
 
+        public int Commit() => 0;
+
         public List<Restaurant> GetAll() => restaurants;
 
         public Restaurant GetById(int id) => restaurants.SingleOrDefault(r => r.Id == id);
 
         public List<Restaurant> GetByName(string name) 
             => string.IsNullOrWhiteSpace(name) ? restaurants : restaurants.Where(r => r.Name.StartsWith(name, StringComparison.InvariantCultureIgnoreCase)).ToList();
+
+        public Restaurant Update(Restaurant restaurant)
+        {
+            var toUpdate = restaurants.SingleOrDefault(r => r.Id == restaurant.Id);
+            if (toUpdate != null)
+            {
+                toUpdate.Name = restaurant.Name;
+                toUpdate.Location = restaurant.Location;
+                toUpdate.Cuisine = restaurant.Cuisine;
+            }
+
+            return toUpdate;
+        }
     }
 }

@@ -9,8 +9,12 @@ namespace OdeToFoodData
     {
         List<Restaurant> GetAll();
 
-        List<Restaurant> GetByName(string name) => throw new NotImplementedException();
+        List<Restaurant> GetByName(string name);
 
         Restaurant GetById(int id);
+
+        Restaurant Update(Restaurant restaurant);
+
+        int Commit();
     }
 }
