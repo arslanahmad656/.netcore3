@@ -26,7 +26,8 @@ namespace OdeToFoodWebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
-            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+            //services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+            services.AddScoped<IRestaurantData, SqlRestaurantData>();
             services.AddDbContextPool<OdeToFoodDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodDb"));

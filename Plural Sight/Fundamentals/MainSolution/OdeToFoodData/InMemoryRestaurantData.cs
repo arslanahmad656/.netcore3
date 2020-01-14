@@ -36,6 +36,13 @@ namespace OdeToFoodData
 
         public int Commit() => 0;
 
+        public Restaurant Delete(int id)
+        {
+            var toDelete = restaurants.SingleOrDefault(r => r.Id == id);
+            restaurants.Remove(toDelete);
+            return toDelete;
+        }
+
         public List<Restaurant> GetAll() => restaurants;
 
         public Restaurant GetById(int id) => restaurants.SingleOrDefault(r => r.Id == id);

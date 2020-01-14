@@ -4,6 +4,13 @@
 }
 
 
+    @if (Model.RestaurantName != null)
+	{
+        <div class="alert alert-info">
+            Restaurant @Model.RestaurantName has been deleted!
+        </div>
+	}
+
     <h1>Restaurants</h1>
 
     <form  method="get">
@@ -21,13 +28,14 @@
         <table class="table">
             @foreach (var item in Model.Restaurants)
             {
-                <tr>
-                    <td>@item.Name</td>
-                    <td>@item.Location</td>
-                    <td>@item.Cuisine</td>
-                    <td><a asp-page="./Details" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Details</a></td>
-                    <td><a asp-page="./Edit" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Edit</a></td>
-                </tr>
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Location</td>
+                <td>@item.Cuisine</td>
+                <td><a asp-page="./Details" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Details</a></td>
+                <td><a asp-page="./Edit" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Edit</a></td>
+                <td><a asp-page="Delete" asp-route-restaurantId="@item.Id" class="btn btn-outline-primary">Delete</a></td>
+            </tr>
             }
         </table>
 

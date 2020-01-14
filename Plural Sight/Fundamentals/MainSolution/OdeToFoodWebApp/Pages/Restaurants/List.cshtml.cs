@@ -20,6 +20,9 @@ namespace OdeToFoodWebApp.Pages.Restaurants
         [BindProperty(SupportsGet = true)]
         public string Term { get; set; }
 
+        [TempData]
+        public string RestaurantName { get; set; }
+
         public ListModel(IConfiguration config, IRestaurantData restaurantData)
         {
             this.config = config;
