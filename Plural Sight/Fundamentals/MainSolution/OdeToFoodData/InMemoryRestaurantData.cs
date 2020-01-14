@@ -20,6 +20,20 @@ namespace OdeToFoodData
 
         }
 
+        public Restaurant Add(Restaurant restaurant)
+        {
+            var toAdd = new Restaurant
+            {
+                Id = restaurants.Max(r => r.Id) + 1,
+                Cuisine = restaurant.Cuisine,
+                Location = restaurant.Location,
+                Name = restaurant.Name
+            };
+
+            restaurants.Add(toAdd);
+            return toAdd;
+        }
+
         public int Commit() => 0;
 
         public List<Restaurant> GetAll() => restaurants;

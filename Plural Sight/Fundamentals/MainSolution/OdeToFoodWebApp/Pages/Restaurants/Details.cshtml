@@ -1,6 +1,11 @@
 ﻿@page "{restaurantId:int}"
 @model OdeToFoodWebApp.Pages.Restaurants.DetailsModel
 
+    @if (Model.Message != null)
+    {
+        <div class="alert alert-success">@Model.Message</div>
+    }
+
     <h1>@Model.Restaurant.Name</h1>
 
     <div>

@@ -16,5 +16,7 @@ namespace OdeToFoodData
         Restaurant Update(Restaurant restaurant);
 
         int Commit();
+
+        Restaurant Add(Restaurant restaurant);
     }
 }
