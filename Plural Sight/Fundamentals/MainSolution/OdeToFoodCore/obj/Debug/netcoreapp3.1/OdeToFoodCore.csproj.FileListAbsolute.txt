@@ -5,3 +5,4 @@ C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\F
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodCore\obj\Debug\netcoreapp3.1\OdeToFoodCore.AssemblyInfo.cs
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodCore\obj\Debug\netcoreapp3.1\OdeToFoodCore.dll
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodCore\obj\Debug\netcoreapp3.1\OdeToFoodCore.pdb
+C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodCore\obj\Debug\netcoreapp3.1\OdeToFoodCore.csprojAssemblyReference.cache
