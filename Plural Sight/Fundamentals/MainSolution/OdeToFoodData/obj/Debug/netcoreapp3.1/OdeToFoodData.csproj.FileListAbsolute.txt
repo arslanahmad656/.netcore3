@@ -9,3 +9,5 @@ C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\F
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodData\obj\Debug\netcoreapp3.1\OdeToFoodData.csproj.CopyComplete
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodData\obj\Debug\netcoreapp3.1\OdeToFoodData.dll
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodData\obj\Debug\netcoreapp3.1\OdeToFoodData.pdb
+C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodData\bin\Debug\netcoreapp3.1\OdeToFoodData.runtimeconfig.json
+C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodData\bin\Debug\netcoreapp3.1\OdeToFoodData.runtimeconfig.dev.json
