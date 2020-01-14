@@ -19,9 +19,16 @@ using OdeToFoodWebApp;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodWebApp\Pages\_ViewImports.cshtml"
+using OdeToFoodCore;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("RouteTemplate", "{restaurantId:int}")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0acca0d939d06106661c87c839adbf4d98d98e17", @"/Pages/Restaurants/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"06fc119468df3853df7e13a9dc382d429f48aa49", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4dd8ee17d379498364b2fbd565e361384b8a9411", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Restaurants_Details : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "./List", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -116,7 +123,7 @@ using OdeToFoodWebApp;
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n    </div>\r\n\r\n    <p>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0acca0d939d06106661c87c839adbf4d98d98e176544", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0acca0d939d06106661c87c839adbf4d98d98e176793", async() => {
                 WriteLiteral("All Restaurants");
             }
             );

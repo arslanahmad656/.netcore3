@@ -1,0 +1,17 @@
+﻿@model Restaurant
+
+<div class="card">
+    <div class="card-header">
+        @Model.Name
+    </div>
+    <div class="card-body">
+        <p class="card-text">Name: @Model.Name</p>
+        <p class="card-text">Location: @Model.Location</p>
+        <p class="card-text">Cuisine: @Model.Cuisine</p>
+    </div>
+    <div class="card-footer">
+        <a asp-page="./Details" asp-route-restaurantId="@Model.Id" class="btn btn-outline-primary">Details</a>
+        <a asp-page="./Edit" asp-route-restaurantId="@Model.Id" class="btn btn-outline-primary">Edit</a>
+        <a asp-page="Delete" asp-route-restaurantId="@Model.Id" class="btn btn-outline-primary">Delete</a>
+    </div>
+</div>

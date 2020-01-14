@@ -135,3 +135,4 @@ C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\F
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodWebApp\obj\Debug\netcoreapp3.1\OdeToFoodWebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodWebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodWebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\Delete.cshtml.g.cs
+C:\Users\Administrator.ZEUS\source\repos\arslanahmad656\.netcore3\Plural Sight\Fundamentals\MainSolution\OdeToFoodWebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
