@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -49,12 +50,12 @@ namespace OdeToFoodWebApp
                 app.UseHsts();
             }
 
+            app.Use(MyCustomMiddleWare);
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseNodeModules();
-
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -62,6 +63,22 @@ namespace OdeToFoodWebApp
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
             });
+        }
+
+        private RequestDelegate MyCustomMiddleWare(RequestDelegate arg)
+        {
+            return async ctx =>
+            {
+                //await ctx.Response.WriteAsync("Custom middleware component interrupted the pipeline processing.");
+                if (ctx.Request.Path.StartsWithSegments("/custom"))
+                {
+                    await ctx.Response.WriteAsync("Custom middleware component interrupted the pipeline processing.");
+                }
+                else
+                {
+                    await arg(ctx);
+                }
+            };
         }
     }
 }
