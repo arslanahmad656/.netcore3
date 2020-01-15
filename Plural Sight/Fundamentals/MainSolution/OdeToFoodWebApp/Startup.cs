@@ -32,6 +32,7 @@ namespace OdeToFoodWebApp
             {
                 options.UseSqlServer(Configuration.GetConnectionString("OdeToFoodDb"));
             });
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +60,7 @@ namespace OdeToFoodWebApp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }
