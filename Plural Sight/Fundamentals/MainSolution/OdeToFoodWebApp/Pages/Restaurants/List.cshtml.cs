@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using OdeToFoodCore;
 using OdeToFoodData;
 
@@ -14,6 +15,7 @@ namespace OdeToFoodWebApp.Pages.Restaurants
     {
         private readonly IConfiguration config;
         private readonly IRestaurantData restaurantData;
+        private readonly ILogger<ListModel> logger;
 
         public List<Restaurant> Restaurants { get; set; }
 
@@ -23,14 +25,16 @@ namespace OdeToFoodWebApp.Pages.Restaurants
         [TempData]
         public string RestaurantName { get; set; }
 
-        public ListModel(IConfiguration config, IRestaurantData restaurantData)
+        public ListModel(IConfiguration config, IRestaurantData restaurantData, ILogger<ListModel> logger)
         {
             this.config = config;
             this.restaurantData = restaurantData;
+            this.logger = logger;
         }
 
         public void OnGet()
         {
+            logger.LogError("DFKLSJDFKLSJKLSJDFSKLJFDLKJFDLSKFJDSLFJDSLK");
             Restaurants = restaurantData.GetByName(Term);
         }
     }
