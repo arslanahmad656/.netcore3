@@ -1,0 +1,16 @@
+﻿@model Movie
+
+@{
+    ViewData["Title"] = "OptOutOfTagHelperTest";
+}
+
+<h1>OptOutOfTagHelperTest</h1>
+
+<form action="#" method="post">
+    <th:label asp-for="Title"></th:label>
+    <th:input asp-for="Title" />
+    <!label asp-for="Genre"></!label>
+    <input asp-for="Genre" />
+    <th:label asp-for="ReleaseDate"></th:label>
+    <th:input asp-for="ReleaseDate" disabled="@(!Model.ReleaseDate.HasValue)" />
+</form>
