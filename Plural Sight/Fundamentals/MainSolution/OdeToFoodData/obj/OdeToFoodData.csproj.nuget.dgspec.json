@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {}
+    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
+    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
+        "projectUniqueName": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
         "projectName": "OdeToFoodCore",
-        "projectPath": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
-        "packagesPath": "C:\\Users\\Administrator.ZEUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\obj\\",
+        "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
+        "packagesPath": "C:\\Users\\Asim Kabir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator.ZEUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asim Kabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,24 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {
+    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
+        "projectUniqueName": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
         "projectName": "OdeToFoodData",
-        "projectPath": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
-        "packagesPath": "C:\\Users\\Administrator.ZEUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\obj\\",
+        "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
+        "packagesPath": "C:\\Users\\Asim Kabir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator.ZEUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asim Kabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
-                "projectPath": "C:\\Users\\Administrator.ZEUS\\source\\repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj"
+              "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
+                "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj"
               }
             }
           }
@@ -130,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
