@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj": {}
+    "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj": {
+    "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj",
         "projectName": "LearningApp",
-        "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj",
-        "packagesPath": "C:\\Users\\Asim Kabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\obj\\",
+        "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\LearningApp.csproj",
+        "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\LearningApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asim Kabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

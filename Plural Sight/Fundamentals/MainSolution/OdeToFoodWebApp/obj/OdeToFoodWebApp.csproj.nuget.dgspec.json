@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj": {}
+    "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
+    "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
         "projectName": "OdeToFoodCore",
-        "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
-        "packagesPath": "C:\\Users\\Asim Kabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\obj\\",
+        "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
+        "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asim Kabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,17 +56,17 @@
         }
       }
     },
-    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {
+    "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
         "projectName": "OdeToFoodData",
-        "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
-        "packagesPath": "C:\\Users\\Asim Kabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\obj\\",
+        "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj",
+        "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asim Kabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,8 +79,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
-                "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj"
+              "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj"
               }
             }
           }
@@ -128,17 +128,17 @@
         }
       }
     },
-    "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj": {
+    "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj",
         "projectName": "OdeToFoodWebApp",
-        "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj",
-        "packagesPath": "C:\\Users\\Asim Kabir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\obj\\",
+        "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\OdeToFoodWebApp.csproj",
+        "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asim Kabir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -151,8 +151,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {
-                "projectPath": "C:\\Users\\Asim Kabir\\Source\\Repos\\arslanahmad656\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj"
+              "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj": {
+                "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodData\\OdeToFoodData.csproj"
               }
             }
           }

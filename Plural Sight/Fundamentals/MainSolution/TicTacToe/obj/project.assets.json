@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
-      "projectName": "OdeToFoodCore",
-      "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\OdeToFoodCore.csproj",
+      "projectUniqueName": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\TicTacToe\\TicTacToe.csproj",
+      "projectName": "TicTacToe",
+      "projectPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\TicTacToe\\TicTacToe.csproj",
       "packagesPath": "C:\\Users\\arsla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\OdeToFoodCore\\obj\\",
+      "outputPath": "C:\\Users\\arsla\\Source\\Repos\\.netcore3\\Plural Sight\\Fundamentals\\MainSolution\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arsla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,6 +54,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
