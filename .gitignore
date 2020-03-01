@@ -4,13 +4,18 @@
 
 /Plural Sight/Fundamentals/MainSolution/.vs/MainSolution/v16/Server/sqlite3
 /.vs
-/Plural Sight/Fundamentals/MainSolution/LearningApp/obj
+/Plural Sight/Fundamentals/MainSolution/LearningApp/obj/*
+/Plural Sight/Fundamentals/MainSolution/LearningApp/bin/*
+/Plural Sight/Fundamentals/MainSolution/TicTacToe/obj/*
+/Plural Sight/Fundamentals/MainSolution/TicTacToe/bin/*
 /Plural Sight/Fundamentals/MainSolution/LearningApp/bin/Debug/netcoreapp3.1
 /Plural Sight/Fundamentals/MainSolution/TicTacToe/obj/Release/netcoreapp3.1
 /Plural Sight/Fundamentals/MainSolution/TicTacToe/obj/Debug/netcoreapp3.1
-/Plural Sight/Fundamentals/MainSolution/OdeToFoodWebApp/obj
-/Plural Sight/Fundamentals/MainSolution/OdeToFoodWebApp/bin
-/Plural Sight/Fundamentals/MainSolution/OdeToFoodData/obj
-/Plural Sight/Fundamentals/MainSolution/OdeToFoodData/bin
-/Plural Sight/Fundamentals/MainSolution/OdeToFoodCore/obj
-/Plural Sight/Fundamentals/MainSolution/OdeToFoodCore/bin
+/Plural Sight/Fundamentals/MainSolution/OdeToFoodWebApp/obj/*
+/Plural Sight/Fundamentals/MainSolution/OdeToFoodWebApp/bin/*
+/Plural Sight/Fundamentals/MainSolution/OdeToFoodData/obj/*
+/Plural Sight/Fundamentals/MainSolution/OdeToFoodData/bin/*
+/Plural Sight/Fundamentals/MainSolution/OdeToFoodCore/obj/*
+/Plural Sight/Fundamentals/MainSolution/OdeToFoodCore/bin/*
+/Plural Sight/Fundamentals/MainSolution/**/bin/*
+/Plural Sight/Fundamentals/MainSolution/**/obj/*
