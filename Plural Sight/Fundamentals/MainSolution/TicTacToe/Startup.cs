@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using TicTacToe.Middleware;
 
 namespace TicTacToe
 {
@@ -31,6 +32,7 @@ namespace TicTacToe
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseNodeModules(env.ContentRootPath);
             app.UseStaticFiles();
             app.UseRouting();
             app.UseEndpoints(e => e.MapControllerRoute(
