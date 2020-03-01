@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="node_modules\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
