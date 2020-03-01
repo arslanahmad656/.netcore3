@@ -36,6 +36,7 @@ namespace TicTacToe
 
             app.UseNodeModules(env.ContentRootPath);
             app.UseStaticFiles();
+            app.UseCommunications();
             app.UseRouting();
             app.UseEndpoints(e => e.MapControllerRoute(
                 name: "default",
