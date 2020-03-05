@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdeToFoodData", "OdeToFoodD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningApp", "LearningApp\LearningApp.csproj", "{3F8116C2-F5C0-42A8-9711-88C840DFD271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{A8DF0EF8-C50E-4A29-9C1F-43EC6B5C0AB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{A8DF0EF8-C50E-4A29-9C1F-43EC6B5C0AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRPractice", "SignalRPractice\SignalRPractice.csproj", "{ABD7D1CC-5D83-4F26-88A5-E9CC61A81588}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A8DF0EF8-C50E-4A29-9C1F-43EC6B5C0AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8DF0EF8-C50E-4A29-9C1F-43EC6B5C0AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8DF0EF8-C50E-4A29-9C1F-43EC6B5C0AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD7D1CC-5D83-4F26-88A5-E9CC61A81588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD7D1CC-5D83-4F26-88A5-E9CC61A81588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD7D1CC-5D83-4F26-88A5-E9CC61A81588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD7D1CC-5D83-4F26-88A5-E9CC61A81588}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
