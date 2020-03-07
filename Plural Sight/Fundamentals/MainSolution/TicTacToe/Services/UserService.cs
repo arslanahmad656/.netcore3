@@ -8,7 +8,7 @@ namespace TicTacToe.Services
 {
     public class UserService : IUserService
     {
-        public async Task<bool> RegisterUser(UserModel userModel)
+        public async Task<bool> CreateUser(UserModel userModel)
         {
             return await Task.FromResult(true);
         }

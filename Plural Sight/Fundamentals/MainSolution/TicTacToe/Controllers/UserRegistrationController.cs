@@ -25,8 +25,8 @@ namespace TicTacToe.Controllers
         [HttpPost]
         public async Task<ActionResult> Index(UserModel userModel)
         {
-            await _userService.RegisterUser(userModel);
-            return Content($"{userModel.FirstName} {userModel.LastName} registered.");
+            await _userService.CreateUser(userModel);
+            return NoContent();
         }
     }
 }

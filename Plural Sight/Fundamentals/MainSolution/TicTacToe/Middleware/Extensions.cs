@@ -10,8 +10,7 @@ namespace TicTacToe.Middleware
 {
     public static class Extensions
     {
-        public static IApplicationBuilder UseCommunications(this IApplicationBuilder app)
-            => app.UseMiddleware<CommunicationsMiddleware>();
+        public static IApplicationBuilder UseCommunications(this IApplicationBuilder app) => app.UseMiddleware<CommunicationsMiddleware>();
 
         public static IApplicationBuilder UseNodeModules(this IApplicationBuilder app, string rootPath)
         {
