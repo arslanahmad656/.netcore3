@@ -31,7 +31,14 @@ namespace TicTacToe.Controllers
             }
 
             await _userService.CreateUser(userModel);
-            return NoContent();
+            return RedirectToAction(nameof(EmailConfirmation), new { emailAddress = userModel.Email });
+        }
+
+        [HttpGet]
+        public ActionResult EmailConfirmation(string emailAddress)
+        {
+            ViewBag.Email = emailAddress;
+            return View();
         }
     }
 }
