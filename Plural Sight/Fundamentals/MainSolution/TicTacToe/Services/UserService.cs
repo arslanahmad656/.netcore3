@@ -9,22 +9,60 @@ namespace TicTacToe.Services
 {
     public class UserService : IUserService
     {
-        private readonly ConcurrentBag<UserModel> _users;
+        private readonly ConcurrentDictionary<string, UserModel> _usersIndexedByEmail;
+        private readonly ConcurrentDictionary<Guid, UserModel> _usersIndexedById;
+
+        private bool AddUser(UserModel user)
+        {
+            if (!_usersIndexedById.ContainsKey(user.Id))
+            {
+                _usersIndexedById.TryAdd(user.Id, user);
+                _usersIndexedByEmail.TryAdd(user.Email, user);
+                return true;
+            }
+
+            return false;
+        }
+
+        private async Task RemoveByEmail(string email)
+        {
+            var userToRemove = await GetUserByEmail(email);
+            if (userToRemove != null)
+            {
+                RemoveIndex(userToRemove.Email, userToRemove.Id);
+            }
+        }
+
+        private async Task RemoveById(Guid id)
+        {
+            var userToRemove = await GetUserById(id);
+            if (userToRemove != null)
+            {
+                RemoveIndex(userToRemove.Email, userToRemove.Id);
+            }
+        }
+
+        private void RemoveIndex(string email, Guid id)
+        {
+            _usersIndexedByEmail.Remove(email, out _);
+            _usersIndexedById.Remove(id, out _);
+        }
+
+        public async Task<UserModel> GetUserByEmail(string email)
+            => await Task.FromResult(_usersIndexedByEmail.GetValueOrDefault(email));
+
+        public async Task<UserModel> GetUserById(Guid id)
+            => await Task.FromResult(_usersIndexedById.GetValueOrDefault(id));
 
         public UserService()
         {
-            _users = new ConcurrentBag<UserModel>();
+            _usersIndexedByEmail = new ConcurrentDictionary<string, UserModel>();
+            _usersIndexedById = new ConcurrentDictionary<Guid, UserModel>();
         }
 
         public async Task<bool> CreateUser(UserModel userModel)
         {
-            _users.Add(userModel);
-            return await Task.FromResult(true);
-        }
-
-        public async Task<UserModel> GetUserByEmail(string email)
-        {
-            return await Task.FromResult(_users.SingleOrDefault(u => u.Email.Equals(email, StringComparison.InvariantCultureIgnoreCase)));
+            return await Task.FromResult(AddUser(userModel));
         }
 
         public async Task<bool> IsOnline(Guid userId)
@@ -32,9 +70,14 @@ namespace TicTacToe.Services
             throw new NotImplementedException();
         }
 
-        public Task UpdateUser(UserModel user)
+        public async Task UpdateUser(UserModel user)
         {
-            throw new NotImplementedException();
+            var userToUpdate = await GetUserById(user.Id);
+            if (userToUpdate != null)
+            {
+                await RemoveById(userToUpdate.Id);
+                AddUser(user);
+            }
         }
     }
 }
