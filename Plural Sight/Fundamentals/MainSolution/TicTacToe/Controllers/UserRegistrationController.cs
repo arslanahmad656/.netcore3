@@ -25,6 +25,11 @@ namespace TicTacToe.Controllers
         [HttpPost]
         public async Task<ActionResult> Index(UserModel userModel)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(userModel);
+            }
+
             await _userService.CreateUser(userModel);
             return NoContent();
         }
