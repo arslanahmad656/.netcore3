@@ -9,3 +9,8 @@
     A confirmation email has been sent to @email. Please use the instructions given in the email message to verify the user.
 </p>
 
+@section Scripts{ 
+    <script>
+        $(document).ready(() => attchEmailConfirmationEvent('@email'));
+    </script>
+}

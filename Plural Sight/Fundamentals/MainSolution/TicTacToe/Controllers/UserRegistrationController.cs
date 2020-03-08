@@ -44,10 +44,6 @@ namespace TicTacToe.Controllers
                 return RedirectToAction(nameof(Index), nameof(GameInvitationController).Remove(nameof(GameInvitationController).IndexOf("Controller")), new { invitedBy = user.Id });
             }
 
-            user.IsEmailConfirmed = true;
-            user.EmailConfirmationDate = DateTime.Now;
-            await _userService.UpdateUser(user);
-
             ViewBag.Email = emailAddress;
             return View();
         }

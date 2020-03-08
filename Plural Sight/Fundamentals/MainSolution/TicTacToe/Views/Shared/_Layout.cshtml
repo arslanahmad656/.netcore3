@@ -57,6 +57,12 @@
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <environment include="Development">
+        <script src="~/app/js/emailConfirmationEvent.js"></script>
+        <script src="~/app/js/emailconfirmationprocessor.js"></script>
+    </environment>
+
     @RenderSection("Scripts", required: false)
 </body>
 </html>

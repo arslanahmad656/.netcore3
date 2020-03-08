@@ -79,5 +79,24 @@ namespace TicTacToe.Services
                 AddUser(user);
             }
         }
+
+        public async Task<bool> ConfirmEmail(string email)
+        {
+            var userToConfirm = await GetUserByEmail(email);
+            if (userToConfirm == null)
+            {
+                return false;
+            }
+
+            if (userToConfirm.IsEmailConfirmed)
+            {
+                return true;
+            }
+
+            userToConfirm.IsEmailConfirmed = true;
+            userToConfirm.EmailConfirmationDate = DateTime.Now;
+            await UpdateUser(userToConfirm);
+            return true;
+        }
     }
 }

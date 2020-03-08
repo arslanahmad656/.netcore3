@@ -20,7 +20,16 @@ namespace TicTacToe.Middleware
 
         public async Task Invoke(HttpContext context)
         {
-            await _next(context);
+            if (context.Request.Path.Equals("/CheckEmailConfirmationStatus"))
+            {
+                var email = context.Request.Query["email"];
+                await _userService.ConfirmEmail(email);
+                await context.Response.WriteAsync("ok");
+            }
+            else
+            {
+                await _next(context);
+            }
         }
     }
 }

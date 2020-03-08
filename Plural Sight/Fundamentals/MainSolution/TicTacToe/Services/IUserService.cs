@@ -15,5 +15,7 @@ namespace TicTacToe.Services
         Task<UserModel> GetUserById(Guid id);
 
         Task UpdateUser(UserModel user);
+
+        Task<bool> ConfirmEmail(string email);
     }
 }
